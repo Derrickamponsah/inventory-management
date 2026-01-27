@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  align-items: center;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.product-actions .edit-btn {
+  background-color: #f1c40f;
+  color: white;
+}
+
+.product-actions .edit-btn:hover {
+  background-color: #d4ac0d;
+}
+
+.product-actions .delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.product-actions .delete-btn:hover {
+  background-color: #c0392b;
+}
